@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "http-server & serve -p 8081 -s 01 & serve -p 8082 -s 01.1 & serve -p 8083 -s 02",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1",
+    "jest": "23.6.0",
+    "serve": "10.1.2",
+    "standard": "12.0.1"
+  }
+}
